@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Afacad', sans-serif;
+}
+
+.box{
+    background-color: teal;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 25px;
+   
+}
+
+
+.about-box{
+    background-color: rgb(45, 190, 190);
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 25px;
+
+}
+
+h2{
+    color: white;
+    padding: 25px;
+    font-size: 38px;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+
+p{
+    color: white;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 22px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 700px;
+    text-align: justify;
+
+}
+
+.social-icon{
+    padding: 25px;
+
+}
+
+.social-icon ul{
+   list-style: none;
+   text-align: center;
+}
+
+.social-icon ul li{
+    display: inline-block;
+    margin: 10px;
+    background-color: rgb(198, 140, 140);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+.social-icon ul li a{
+    color: white;
+    font-size: 20px;
+}
+
+.social-icon ul li:hover{
+
+    background-color: aquamarine;
+    transition: 0.5s;
+    transform: scale(1.5);
+
+
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+  
+   
+    
+}
+
+ .menu a{
+
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px 37px;
+    transition: 0.5s;
+    border-radius: 8px;
+   
+}
+
+.menu a:hover{
+    color:black;
+    background-color: bisque;
+    transition: 0.5s;
+}
